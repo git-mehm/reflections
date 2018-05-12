@@ -1,0 +1,17 @@
+What happens when you initialize a repository?
+What do you need to do it?
+  git init - creates .git in a directory
+  git status - shows the status of files in
+    the directory
+  git reset - clears the staging area
+  git add - adds files to staging area
+
+How is the staging area dif from the workg dir?
+  these are files that will be committed where
+  the workg dir may have files that are not being
+  tracked
+What value does this offer?
+  it allows you to make changes to a file and
+  tell git that it will be committed on the next
+  commit which may happen after other files are
+  finished.
