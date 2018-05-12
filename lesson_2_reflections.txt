@@ -22,5 +22,14 @@ git branch - creates a copy of the directory at
    testing.
 
 git commit -m "<desc>" commits files that
-  are in the staging area. -m can be left off which
-  will open text editor for more detailed desc
+  are in the staging area. -m can be left off
+  which will open text editor for more detailed
+  desc
+
+git merge <branch name> - allows you to merge
+  a branch with the current active branch
+  for instance in you are in master you can
+  merge any branch into the master branch to
+  incorporate those changes
+
+git branch -d <branch name> - deletes a branch
