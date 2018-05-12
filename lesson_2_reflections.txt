@@ -15,3 +15,12 @@ What value does this offer?
   tell git that it will be committed on the next
   commit which may happen after other files are
   finished.
+
+git branch - creates a copy of the directory at
+   the current level which is separate from the
+   *master file. can be used for variations or
+   testing.
+
+git commit -m "<desc>" commits files that
+  are in the staging area. -m can be left off which
+  will open text editor for more detailed desc
